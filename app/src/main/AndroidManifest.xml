@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EParcial"
+        tools:targetApi="31">
+        <activity
+            android:name=".EscritorioGmailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_escritorio_gmail"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".AlumnosInsertActivity"
+            android:exported="false"
+            android:label="@string/title_activity_alumnos_insert"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".AlumnosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_alumnos"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".ImagenGmailActivity"
+            android:exported="false"
+            android:label="@string/title_activity_imagen_gmail"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".InicioSesionActivity"
+            android:exported="false"
+            android:label="@string/title_activity_inicio_sesion"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".DetallePedidoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detalle_pedido"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".DetalleEnvioActivity"
+            android:exported="false"
+            android:label="@string/title_activity_detalle_envio"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".EnviosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_envios"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".InsertPaisActivity"
+            android:exported="false"
+            android:label="@string/title_activity_insert_pais"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".DatosActivity"
+            android:exported="false"
+            android:label="@string/title_activity_datos"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".PaisesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_paises"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".ColaboradoresActivity"
+            android:exported="false"
+            android:label="@string/title_activity_colaboradores"
+            android:theme="@style/Theme.EParcial" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:label="@string/title_activity_splash"
+            android:theme="@style/Theme.EParcial">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.EParcial" />
+    </application>
+
+</manifest>

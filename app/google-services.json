@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "275954852022",
+    "project_id": "eparcial-2e96a",
+    "storage_bucket": "eparcial-2e96a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275954852022:android:0860b68dc620d3a6c9c617",
+        "android_client_info": {
+          "package_name": "com.huarezreyes.eparcial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8fbrHDEDiRJgVjDlDdW-FHoSaV4xE7nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

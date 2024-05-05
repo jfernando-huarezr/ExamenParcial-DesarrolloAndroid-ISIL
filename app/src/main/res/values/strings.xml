@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EParcial</string>
+    <string name="title_activity_splash">Parcial</string>
+    <string name="title_activity_colaboradores">Colaboradores</string>
+    <string name="title_activity_paises">Paises</string>
+    <string name="title_activity_datos">Datos</string>
+    <string name="title_activity_insert_pais">Insertar Pais</string>
+    <string name="title_activity_envios">EnviosActivity</string>
+    <string name="title_activity_detalle_envio">DetalleEnvioActivity</string>
+    <string name="title_activity_detalle_pedido">DetallePedidoActivity</string>
+    <string name="title_activity_inicio_sesion">InicioSesionActivity</string>
+    <string name="title_activity_imagen_gmail">ImagenGmailActivity</string>
+    <string name="title_activity_alumnos">AlumnosActivity</string>
+    <string name="title_activity_alumnos_insert">AlumnosInsert</string>
+    <string name="title_activity_escritorio_gmail">EscritorioGmailActivity</string>
+</resources>
